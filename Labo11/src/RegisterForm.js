@@ -2,12 +2,11 @@ import React, {Component} from "react";
 
 class RegisterForm extends Component{
     options = [
-        'Lunes de 9:00 a 11:00',
+        'Lunes de 7:00 a 05:10',
         'Martes de 13:30 a 15:30',
-        'Miercoles de 9:00 a 11:00',
+        'Miercoles de 7:00 a 05:10',
         'Jueves de 13:30 a 15:30',
         'Viernes de 9:00 a 11:00',
-        'Viernes de 15:30 a 17:30'
     ];
 
     carnet_regex = new RegExp("^[0-9]{8}$");
